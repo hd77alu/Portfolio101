@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="writer" content="HAMED ALFATIH">
+    <link rel="stylesheet" href="styles.css">
+    <script src="functions.js" defer></script>
+    <title>Hamed Alfatih</title>
+</head>
+<body>
+<header>
+    <div class="tape"></div>
+    <section class="container1">
+    <figure class="mypic">
+        <img src="images/me.png" alt="Hamed Alfatih" width="1080" height="1080">
+    </figure>
+        <h1>Welcome To <span class="nowrap">My Website&#128187;</span></h1>
+    </section>
+    <div class="navbar">
+    <button class="hamburger">&#9776;</button>
+    <div class="menu">
+<nav aria-label="Primary navigation menu">
+    <ul>
+        <li><a href="#">TOP &#128640;</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav>
+    </div>
+    </div>
+</header>
+<main>
+<article>
+<article id="about" class="about">
+    <h2>About Me</h2>
+
+    <section class="about-box">
+
+        <div class="myavatar">
+    <figure>
+        <img src="images/my-avatar.jpg" alt="My Avatar" width="1024" height="1024">
+        <figcaption>My Avatar</figcaption>
+    </figure>
+        </div>
+
+        <div class="info">
+        <ul>
+            <li><span class ="highlight">My name is Hamed, from Sudan.</span> I’m currently in my second year as a software engineering student at the african leadership university.</li>
+    <li>I've chosen this field <span class="highlight">because I firmly believe that technology is the ultimate force</span> of transforming and elevating the quality of life for humanity.</li>
+            <li><span class="highlight">My mission is to transform the tech industry in Sudan</span> & use the power of technology to rebuild our country after the ongoing war.</li>
+        </ul>
+        </div>
+
+    </section>
+</article>
+
+<article id="work" class="work">
+    <h2>My Work</h2>
+    <section class="project1">
+        <!--<h3>R.A.G Project</h3>-->
+    <figure class="projectRAG">
+        <img src="images/R.A.G%20Logo.png" alt="R.A.G Project" width="1080" height="1080">
+    </figure>
+    <p>R.A.G. (Read & Grow) is a book list app built with Python.</p>
+<ul>
+   <LI>R.A.G have the following options for the user to interact with:</LI>
+    <li>Introductory Message about R.A.G : Greetings message and  a brief overview of the app features.
+    <li>Book Menu( view the books list): Display a menu with options of the books that the user can choose from & the book description.</li>
+    <li>User record : The user can register in the program & can mark the books as read or unread to track his progress.</li>
+    <li>Random recommendation : we will recommend a random book to the user based on his preference.</li>
+    <li>Keyword Search :  the user can search through the book list through keywords.</li>
+</ul>
+    </section>
+    <section class="project2">
+    <p><span class="top">GiveLife Project</span>Givelife is an ALU student-led initiative addressing health challenges by uniting the community. Through fundraising and contributions, the project aims to enroll 1,500 Rwandan individuals in the Community based Health insurance scheme by 2030, building a healthier future and embodying purposeful leadership.</p>
+    <ul>
+        <li>Job Title: Head Of Marketing & Communication</li>
+        <li>Developing ing the marketing strategy for the Givelife project.</li>
+        <li>Managing Givelife social media channels.</li>
+        <li>Preparing Presentation slides & co-facilitating the weekly meetings.</li>
+        <li>Collaborating with other editors & designers to develop informative posters for the project.</li>
+        <li>Planning the project events & fundraising campaigns.</li>
+    </ul>
+        <figure class="givelife">
+            <img src="images/GIVELIFE-Team-1.jpg" alt="GIVELIFE Team" width="1080" height="1080">
+            <img src="images/GIVELIFE-Team-4.png" alt="GIVELIFE Team" width="1080" height="1080">
+            <img src="images/GIVELIFE-Team-3.png" alt="GIVELIFE Team" width="1080" height="1080">
+            <img src="images/GIVELIFE-Team-2.jpg" alt="GIVELIFE Team" width="1080" height="1080">
+        </figure>
+
+</section>
+</article>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <!-- Div 1: Programming Languages -->
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>SQL Database Language</li>
+                    <li>Linux Shell Script</li>
+                </ul>
+            </div>
+
+            <!-- Div 2: Other Skills -->
+            <div class="skill-box">
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Excel</li>
+                    <li>Google Workspace Tools</li>
+                    <li>Adobe Creative Suite</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <fieldset>
+            <legend>Message Me &#128172;</legend>
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" autocomplete="on" required pattern="[A-Za-z ]+" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" autocomplete="on" required placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="3" placeholder="Type your message here..."></textarea>
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="submit-btn">Send</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </fieldset>
+    </form>
+
+</section>
+</article>
+</main>
+
+<footer>
+    <a href="https://www.linkedin.com/in/hamed-alfatih-1802b7112" target="_blank" class="linkedin-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+    </a>
+    <p class="copy">&copy2025 Hamed Alfatih</p>
+</footer>
+</body>
+</html>
