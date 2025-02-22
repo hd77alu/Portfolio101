@@ -58,7 +58,7 @@ img {
     display: none; /* Hidden by default */
     position: fixed;
     left: 0;
-    bottom: 12rem;
+    bottom: 10rem;
     background-color: whitesmoke;
     padding: 10px;
 }
@@ -587,6 +587,6 @@ footer {
 /* medium screen size adjustments */
 @media screen and (max-width: 481px) {
     body {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 }
