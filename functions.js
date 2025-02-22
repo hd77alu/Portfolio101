@@ -1,3 +1,4 @@
+//Nav menu settings
 document.querySelector(".hamburger").addEventListener("click", function () {
     let menu = document.querySelector(".menu");
 

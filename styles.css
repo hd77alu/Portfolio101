@@ -1,3 +1,4 @@
+/* Basic set ups */
 * {
     margin: 0;
     padding: 0;
@@ -17,14 +18,15 @@ body {
     line-height: 1.5;
 }
 
+img {
+    display: block;
+}
+
+/* var elements */
 :root {
     --NORMAL-BORDER: 1px solid black;
     --H-PADDING: 0.5rem 2rem;
     --H-BORDER: 5px double lightgray;
-}
-
-img {
-    display: block;
 }
 
 /* Basic styles for navbar */
@@ -42,7 +44,7 @@ img {
     border: none;
     padding: 0.5rem 1rem;
     background-color: #f1efef;
-    color: #13263a;
+    color: black;
     animation: shining 3s infinite;
 }
 
@@ -72,6 +74,7 @@ img {
         opacity: 1;
     }
 }
+
 /* Slide-up animation */
 @keyframes slideUp {
     from {
@@ -83,6 +86,7 @@ img {
         opacity: 0;
     }
 }
+
 /* Shining animation */
 @keyframes shining {
     0% {
@@ -96,6 +100,7 @@ img {
     }
 }
 
+/* Navigation menu */
 .menu ul {
     list-style: none;
     border-bottom: var(--NORMAL-BORDER);
@@ -111,7 +116,7 @@ img {
 
 .menu ul li a {
     text-decoration: none;
-    color: #13263a;
+    color: black;
 }
 .menu ul li:nth-child(1) {
     background-color: gold;
@@ -124,7 +129,7 @@ img {
     transform: scale(1.1);
     display: block;
     transition: all;
-    color: #1031b1;
+    color: black;
     font-weight: bold;
 }
 
@@ -154,6 +159,7 @@ img {
     padding: 30px;
 }
 
+/* Headers */
 h1 {
     background-image: radial-gradient(black, #3a3939) ;
     text-shadow: 2px 1px #757474;
@@ -164,6 +170,7 @@ h1 {
     border: 8px double lightgray;
     text-align: center;
 }
+
 .nowrap {
     white-space: nowrap;
 }
@@ -175,7 +182,7 @@ h1 {
 .mypic img{
     width: 90%;
     height: auto;
-    min-width: 250px;
+    min-width: 200px;
     border-radius: 50%;
     margin: 20px auto;
     border: 5px dashed lightgray;
@@ -194,10 +201,13 @@ h1 {
     border-top: var(--H-BORDER);
     border-bottom: var(--H-BORDER);
 }
+
+/* About me section */
 .about-box {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
     gap: 25px;
     background-color: #13263a;
     width: 90%;
@@ -213,7 +223,7 @@ h1 {
 .myavatar img {
     width: 100%;
     height: auto;
-    margin: 0 20px 0 20px;
+    margin: 0 25px;
     border: 3px solid white;
     border-radius: 10px;
 }
@@ -259,6 +269,7 @@ h1 {
     margin-right: 5px;
 }
 
+/* Work Section */
 .work h3{
     text-align: center;
     margin: 40px;
@@ -266,6 +277,7 @@ h1 {
     white-space: nowrap;
 }
 
+/* RAG */
 .project1 {
     background-color: #13263a;
     display: flex;
@@ -332,6 +344,7 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* GiveLife */
 .project2 {
     background-color: #13263a;
     display: flex;
@@ -400,6 +413,7 @@ h1 {
     border-radius: 10px;
 }
 
+/* Skills Section */
 .skills {
     background-color: #13263a;
 }
@@ -521,6 +535,7 @@ form button:hover {
     opacity: 0.5;
 }
 
+/* Footer */
 footer {
     text-align: center;
     font-weight: bold;
@@ -528,7 +543,7 @@ footer {
 }
 
 .linkedin-icon svg {
-   min-width: 50px;  /* Bigger size */
+   min-width: 50px;
     height: 50px;
 }
 
@@ -538,7 +553,7 @@ footer {
 
 .linkedin-icon:hover svg {
     transform: scale(1.2); /* Enlarge size */
-    fill: #046fc6; /* Change color */
+    fill: #046fc6;
 }
 
 .copy {
@@ -570,6 +585,6 @@ footer {
 /* medium screen size adjustments */
 @media screen and (max-width: 481px) {
     body {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 }
