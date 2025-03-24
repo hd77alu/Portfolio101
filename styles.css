@@ -189,7 +189,7 @@ h1 {
     box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.5);;
 }
 
-.about h2, .work h2, .skills h2 , .contact h2{
+.about h2, .work h2, .skills h2, .contact h2, .api h2 {
     text-transform: uppercase;
     background-image: radial-gradient(black, #3a3939) ;
     text-shadow: 2px 1px #757474;
@@ -267,6 +267,11 @@ h1 {
 .info ul li::before{
     content: "\272A";
     margin-right: 5px;
+}
+/* API Section */
+.api p {
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Work Section */
@@ -577,7 +582,7 @@ footer {
 /* medium screen size adjustments */
 @media screen and (max-width: 675px) {
     h1 {
-        font-size: 180% ;
+        font-size: 150% ;
     }
 }
 
@@ -587,4 +592,7 @@ footer {
     body {
     font-size: 1.2rem;
 }
+    h1 {
+        font-size: 150%
+    }
 }
