@@ -58,7 +58,7 @@ img {
     display: none; /* Hidden by default */
     position: fixed;
     left: 0;
-    bottom: 10rem;
+    bottom: 6rem;
     background-color: whitesmoke;
     padding: 10px;
 }
@@ -273,7 +273,12 @@ h1 {
     padding: 10px;
     margin: 10px;
 }
-
+.api a:hover{
+    color: rgba(4, 46, 182, 0.63);
+}
+.api a:visited{
+    color: #3636a3;
+}
 /* Work Section */
 .work h3{
     text-align: center;
