@@ -582,7 +582,7 @@ footer {
 }
 
 
-/* medium screen size adjustments */
+/* small screen size adjustments */
 @media screen and (max-width: 481px) {
     body {
     font-size: 1.2rem;
