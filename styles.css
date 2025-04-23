@@ -58,7 +58,7 @@ img {
     display: none; /* Hidden by default */
     position: fixed;
     left: 0;
-    bottom: 10rem;
+    bottom: 9rem;
     background-color: whitesmoke;
     padding: 10px;
 }
