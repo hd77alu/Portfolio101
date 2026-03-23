@@ -5,4 +5,4 @@
 ![Histograms for variable distributions](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-variable-distributions.png)
 ![Scatterplots (relationship view)](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-scatterplots.png)
 ![Linear Regression Fitted Line on Test Data](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-fitted-line.png)
-![CO2-Predictor-App](https://github.com/hd77alu/Portfolio101/blob/778d9b58a999677ab7a8891cc38a7c8ca147e8ec/images/CO2-Predictor-APP.png)
+![CO2-Predictor-App](https://github.com/hd77alu/Portfolio101/blob/84550219c7af35ef097b8a909741b55841922f69/images/CO2-Predictor-APP.png)
