@@ -7,3 +7,5 @@
 ![Linear Regression Fitted Line on Test Data](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-fitted-line.png)
 ![CO2-Predictor-App](https://github.com/hd77alu/Portfolio101/blob/84550219c7af35ef097b8a909741b55841922f69/images/CO2-Predictor-APP.png)
 ![Terminal output](https://github.com/hd77alu/Portfolio101/blob/baac0648de1005bf3185a64cdbcba768e2df9f9a/images/flutter-analyze-screenshot.png)
+![no background](https://github.com/hd77alu/Portfolio101/blob/121f652f65cb02a516b67256541e1e8957b525d8/images/inclusive-app-all%20screens.png)
+![with background](https://github.com/hd77alu/Portfolio101/blob/121f652f65cb02a516b67256541e1e8957b525d8/images/inclusive-app-screens.png)
