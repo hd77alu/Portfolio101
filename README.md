@@ -1,11 +1,30 @@
-![image alt](https://github.com/hd77alu/Portfolio101/blob/f4e8cbe3ac6f132fc49cfd1fd088ed9cda64248b/images/SAP-Mob-UI.png)
-![image alt](https://github.com/hd77alu/Portfolio101/blob/048b1098e3b024a2ecb4f30771de904993188baf/images/my-avatar.jpg)
-![image alt](https://github.com/hd77alu/Portfolio101/blob/b448a8a6e40e7060de6d4afd253029a48ef6065c/images/kigali-city-all.png)
-![Correlation heatmap](https://github.com/hd77alu/Portfolio101/blob/a64e5b063f134628598806aa80e6a1d73e127f36/images/eastAfrica-dataset-heatmap.png)
-![Histograms for variable distributions](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-variable-distributions.png)
-![Scatterplots (relationship view)](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-scatterplots.png)
-![Linear Regression Fitted Line on Test Data](https://github.com/hd77alu/Portfolio101/blob/5724876240ffa2bb261a861e1d484fb160a3991e/images/eastAfrica-dataset-fitted-line.png)
-![CO2-Predictor-App](https://github.com/hd77alu/Portfolio101/blob/84550219c7af35ef097b8a909741b55841922f69/images/CO2-Predictor-APP.png)
-![Terminal output](https://github.com/hd77alu/Portfolio101/blob/baac0648de1005bf3185a64cdbcba768e2df9f9a/images/flutter-analyze-screenshot.png)
-![no background](https://github.com/hd77alu/Portfolio101/blob/121f652f65cb02a516b67256541e1e8957b525d8/images/inclusive-app-all%20screens.png)
-![with background](https://github.com/hd77alu/Portfolio101/blob/121f652f65cb02a516b67256541e1e8957b525d8/images/inclusive-app-screens.png)
+# Portfolio101
+
+![Avatar](https://github.com/hd77alu/Portfolio101/blob/048b1098e3b024a2ecb4f30771de904993188baf/images/my-avatar.jpg)
+
+A personal portfolio website with an overview of my background, professional experience, selected projects, skills, and contact details in a single responsive page.
+
+## Repository Structure
+
+```text
+Portfolio101/
+├─ index.html
+├─ styles.css
+├─ functions.js
+├─ images/
+└─ README.md
+```
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+## Featuers
+
+- Clean single-page layout with anchored navigation.
+- About, Experience, Projects, Skills, and Contact sections.
+- Responsive project cards for machine learning, full-stack, and community work.
+- Dynamic copyright year in the footer.
+- Mobile-friendly overlay navigation menu.

@@ -23,11 +23,13 @@
     <div class="navbar">
     <button class="hamburger">&#9776;</button>
     <div class="menu">
+<button class="menu-close" type="button" aria-label="Close navigation menu">&times;</button>
 <nav aria-label="Primary navigation menu">
     <ul>
         <li><a href="#">TOP &#128640;</a></li>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#work">My Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact Me</a></li>
     </ul>
@@ -53,51 +55,139 @@
 <!--My Education & My Mission-->
         <div class="info">
         <ul>
-            <li><span class ="highlight">My name is Hamed, from Sudan.</span> I’m currently a software engineering student at the african leadership university.</li>
-    <li>I've chosen this field <span class="highlight">because I firmly believe that technology is the ultimate force</span> of transforming and elevating the quality of life for humanity.</li>
-            <li><span class="highlight">My mission is to transform the tech industry in Sudan</span> & use the power of technology to rebuild our country after the ongoing war.</li>
+            <li><span class ="highlight">My name is Hamed, from Sudan.</span> I’m a software engineering student at the african leadership university (ALU).</li>
+    <li>I've chosen this field <span class="highlight">because I firmly believe that technology is the ultimate force</span> for transforming our lives.</li>
+            <li><span class="highlight">I'm Passionate about machine learning, full-stack web development</span> and leveraging data to build sustainable solutions.</li>
         </ul>
         </div>
 
     </section>
 </article>
-<!--My Work Section-->
-<article id="work" class="work">
-    <h2>My Work</h2>
-    <!--R.A.G Project-->
-    <section class="project1">
-    <figure class="projectRAG">
-        <img src="images/R.A.G%20Logo.png" alt="R.A.G Project" width="1080" height="1080">
-    </figure>
-    <p>R.A.G. (Read & Grow) is a book list app built with Python.</p>
-<ul>
-   <LI>R.A.G have the following options for the user to interact with:</LI>
-    <li>Introductory Message about R.A.G: Greetings message and a brief overview of the app features.
-    <li>Book Menu(view the books list): Display a menu with options of the books that the user can choose from & the book description.</li>
-    <li>User record: The user can register in the program & can mark the books as read or unread to track his progress.</li>
-    <li>Random recommendation: Recommend a random book to the user based on his preference.</li>
-    <li>Keyword Search: The user can search through the book list through keywords.</li>
-</ul>
-    </section>
-    <!--Givelife Project-->
-    <section class="project2">
-    <p><span class="top">GiveLife</span>Givelife is an ALU student-led initiative addressing health challenges by uniting the community. Through fundraising and contributions, the project aims to enroll 1,500 Rwandan individuals in the Community based Health insurance scheme by 2030, building a healthier future and embodying purposeful leadership.</p>
-    <ul>
-        <li>Job Title: Head Of Marketing & Communication</li>
-        <li>Developed ing the marketing strategy for the Givelife project.</li>
-        <li>Managed Givelife social media channels.</li>
-        <li>Designed the Project Presentation slides and co-facilitated the weekly meetings.</li>
-        <li>Collaborated with other editors and designers to develop informative posters for the project.</li>
-        <li>Planned the project events and fundraising campaigns.</li>
-    </ul>
-        <figure class="givelife">
-            <img src="images/GIVELIFE-Team-1.jpg" alt="GIVELIFE Team" width="1080" height="1080">
-            <img src="images/GIVELIFE-Team-4.png" alt="GIVELIFE Team" width="1080" height="1080">
-            <img src="images/GIVELIFE-Team-3.png" alt="GIVELIFE Team" width="1080" height="1080">
-            <img src="images/GIVELIFE-Team-2.jpg" alt="GIVELIFE Team" width="1080" height="1080">
-        </figure>
+<!--Experience Section-->
+<article id="experience" class="experience">
+    <h2>Experience</h2>
 
-</section>
+    <div class="experience-grid">
+        <article class="experience-card">
+            <h3>Data Analysis and Visualization Intern</h3>
+            <p class="experience-meta">May 2026 – Aug 2026 | WageIndicator Foundation | Remote, Netherlands</p>
+            <ul>
+                <li>Produced data visualizations on labor standards across Africa and Europe using Tableau and Flourish.</li>
+                <li>Supported international market research across Denmark, Rwanda, and Saudi Arabia, adapting to regional dynamics.</li>
+                <li>Collaborated cross-functionally with the Content team, delivering data visuals that supported narrative development across global labor market publications.</li>
+            </ul>
+        </article>
+
+        <article class="experience-card">
+            <h3>Full-Stack Web Development Intern</h3>
+            <p class="experience-meta">April 2025 – July 2025 | THINK GREEN Afrika | Part time, Rwanda</p>
+            <ul>
+                <li>Developed responsive web interfaces, significantly improving user experience and accessibility on the organization’s website.</li>
+                <li>Assisted in front-end and back-end development, enhancing website functionality and performance to support THINK GREEN Afrika's digital strategy.</li>
+                <li>Optimized website traffic by 20% through executing results-driven web development strategies.</li>
+            </ul>
+        </article>
+
+        <article class="experience-card">
+            <h3>Cybersecurity and Penetration Testing Intern</h3>
+            <p class="experience-meta">Jan 2025 – March 2025 | Hacktify Cyber Security | Full time, Rwanda</p>
+            <ul>
+                <li>Conducted comprehensive vulnerability assessments on web applications, identifying critical security flaws.</li>
+                <li>Utilized industry-standard penetration testing tools and Linux-based scripting to analyze system vulnerabilities.</li>
+                <li>Authored detailed security compliance reports, translating technical findings into actionable recommendations that enhanced organizational cybersecurity policies.</li>
+            </ul>
+        </article>
+    </div>
+</article>
+<!--projects Section-->
+<article id="work" class="work">
+    <h2>Projects</h2>
+    <p class="projects-intro">In this section, you will find a curated selection of my machine learning and full-stack projects, with source repositories and live websites.</p>
+
+    <section class="project-category">
+        <h3>Machine Learning Projects</h3>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <h4><a href="https://github.com/hd77alu/eac-climate-risk-index" target="_blank" rel="noopener noreferrer">East Africa Community Climate Risk Index</a></h4>
+                <p>A climate-risk classification workflow for EAC countries to predict the temperature-based excess mortality indicator converted into a three-class vulnerability label.</p>
+                <p class="project-tech">Python · Scikit-learn · Deep Learning · Feature Engineering</p>
+                <ul class="project-links">
+                    <li><a href="https://github.com/hd77alu/eac-climate-risk-index" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h4><a href="https://github.com/hd77alu/wildfire-sentinel-mlops" target="_blank" rel="noopener noreferrer">Wildfire-Sentinel-MLOps</a></h4>
+                <p>A scalable, containerized MLOps pipeline for real-time wildfire detection from satellite imagery, built with FastAPI, Streamlit, MobileNet, and Docker Compose.</p>
+                <p class="project-tech">FastAPI · Streamlit · MobileNet · Docker Compose · MLOps</p>
+                <ul class="project-links">
+                    <li><a href="https://github.com/hd77alu/wildfire-sentinel-mlops" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                    <a href="https://wildfire-sentinel-mlops-6gpsxpjak9k96osnaisjvg.streamlit.app" target="_blank" rel="noopener noreferrer">Website</a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h4><a href="https://github.com/hd77alu/linear_regression_model" target="_blank" rel="noopener noreferrer">CO2 Emissions Predictor</a></h4>
+                <p>Uses historical country-level CO2 emissions and socioeconomic indicators (2000–2020) to build a model predicting total CO2 emissions excluding LUCF in East Africa.</p>
+                <p class="project-tech">Python · Regression · Time Series · Data Analysis</p>
+                <ul class="project-links">
+                    <li><a href="https://github.com/hd77alu/linear_regression_model" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="project-category">
+        <h3>Full-Stack Projects</h3>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <h4><a href="https://github.com/hd77alu/techmap" target="_blank" rel="noopener noreferrer">Techmap</a></h4>
+                <p>A responsive web application designed to empower Software Engineering students by bridging the gap between academic learning and industry demand.</p>
+                <p class="project-tech">HTML · CSS · JavaScript · Node.js · Express.js · Chart.js · Leaflet.js · SQLite3</p>
+                <ul class="project-links">
+                    <li><a href="https://github.com/hd77alu/techmap" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+                    <li><a href="https://techmap-sy4z.onrender.com" target="_blank" rel="noopener noreferrer">Website</a></li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h4><a href="https://github.com/hd77alu/eaf_climate_hub" target="_blank" rel="noopener noreferrer">EastAfrica ClimateHub</a></h4>
+                <p>A comprehensive web platform providing reliable climate insights across East African Community member states for researchers, policymakers, and environmental leaders.</p>
+                <p class="project-tech">HTML · CSS · JavaScript · Node.js · Express.js · Passport Google-OAuth · Chart.js · SQLite3</p>
+                <ul class="project-links">
+                    <li><a href="https://github.com/hd77alu/eaf_climate_hub" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+                    <li><a href="https://eaf-climate-hub.onrender.com" target="_blank" rel="noopener noreferrer">Website</a></li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h4><a href="https://github.com/hd77alu/storycast" target="_blank" rel="noopener noreferrer">Storycast</a></h4>
+                <p>A website showcasing stories documenting climate change impacts across Africa. Features three main pages with responsive design and full accessibility support under WCAG 2.1 AA guidelines.</p>
+                <p class="project-tech">HTML · CSS · Sass · JavaScript · Accessibility (WCAG 2.1 AA) </p>
+                <ul class="project-links">
+                    <li><a href="https://github.com/hd77alu/storycast" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+                    <li><a href="https://hd77alu.github.io/storycast" target="_blank" rel="noopener noreferrer">Website</a></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="project-category">
+        <h3>Community Projects</h3>
+
+        <div class="project-grid">
+            <article class="project-card project-card--featured">
+                <h4>GiveLife</h4>
+                <p> Givelife is an ALU student-led initiative addressing health challenges by uniting the community. The project aims to enroll 1,500 Rwandan individuals in the Community based Health insurance scheme by 2030, building a healthier future and embodying purposeful leadership.</p>
+                <figure class="project-media">
+                    <img src="images/GIVELIFE-Team-1.jpg" alt="GIVELIFE team photo" width="1080" height="1080">
+                </figure>
+            </article>
+        </div>
+    </section>
 </article>
     <!--My Skills Section-->
     <section id="skills" class="skills">
@@ -120,7 +210,7 @@
                 <h3>Other Skills</h3>
                 <ul class="other-skills">
                     <li>Excel</li>
-                    <li>Google Workspace Tools</li>
+                    <li>Tableau</li>
                     <li>Adobe Creative Suite</li>
                     <li>Canva</li>
                 </ul>
@@ -132,7 +222,7 @@
     <h2>Contact Me</h2>
     <form action="https://formspree.io/f/xjkwveop" method="POST">
         <fieldset>
-            <legend>Message Me &#128172;</legend>
+            <legend>@Message Me </legend>
             <div class="form-group">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" autocomplete="on" required pattern="[A-Za-z ]+" placeholder="Enter your name">
@@ -159,14 +249,22 @@
 </main>
 <!--The Footer & Copy info-->
 <footer>
-    <!--My LinkedIn page-->
-    <a href="https://www.linkedin.com/in/hamed-alfatih-1802b7112" target="_blank" class="linkedin-icon" title="LinkedIn">
-        <!--LinkedIn icon svg file-->
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-        </svg>
-    </a>
-    <p class="copy">&copy2025 Hamed Alfatih</p>
+    <div class="social-links">
+        <!--My LinkedIn page-->
+        <a href="https://www.linkedin.com/in/hamed-alfatih-1802b7112" target="_blank" rel="noopener noreferrer" class="social-icon linkedin-icon" title="LinkedIn">
+            <!--LinkedIn icon svg file-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+        </a>
+        <!--GitHub icon-->
+        <a href="https://github.com/hd77alu/" target="_blank" rel="noopener noreferrer" class="social-icon github-icon" title="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.001 8.001 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+        </a>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> Hamed Alfatih</p>
 </footer>
 </body>
 </html>
